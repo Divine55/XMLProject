@@ -120,7 +120,7 @@ public class XMLParser {
                 System.out.println("Boo");
                 NodeList parent = child.getChildNodes();
                 for ( int j = 0; j < parent.getLength(); j++ ) {
-                    System.out.println("Boo1");
+                    System.out.println("Boo1!");
                     Node childP = parent.item(i);
                     if ( childP instanceof Element ) {
                         Element childElement = (Element) childP;
